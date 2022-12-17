@@ -1,0 +1,39 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  #clock {
+    text-align: center;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  #clock {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-family: 'wire one',  sans-serif;
+    font-size: 100px;
+    margin-top: -65px;
+    font-weight: bolder;
+    color: #ffff;
+  }
+  
+  @media (min-width: 992px) {
+    
+   #clock {
+    font-size: 150px;
+    color: #ffff;
+    } 
+  }
+  
+  /*
+  #clock {
+    position: absolute;
+    top: 300px;
+    right: 210px;
+  }
+  */
